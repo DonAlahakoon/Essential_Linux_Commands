@@ -21,9 +21,18 @@ This repository contains some of the important often used Linux commands anyone 
 ## 6. echo
 > echo \<message>  print the message<br>
 > echo \<message>  \> \<filename> Add message to the file<br>
-## 6. nano
+## 7. nano
 > nano \<filename> edit a file<br>
 > To save use ctrl + X and Y and Enter to save
-## 6.
-## 6.
-## 6.
+## 8. vim
+> vim \<filename> edit a file<br>
+> Hit I to start editing
+> When done use hit ESC and :wq 
+## 9. cat
+> cat \<filename> Read content of a file
+## 10. shred
+> shred \<filename> Don't let anyone to read the file. 
+## 11. mkdir
+> mkdir \<directory name> create a new directory
+## 12. cp
+> cp \<file name> \<path where to copy> Copy file to a given path 
