@@ -35,4 +35,37 @@ This repository contains some of the important often used Linux commands anyone 
 ## 11. mkdir
 > mkdir \<directory name> create a new directory
 ## 12. cp
-> cp \<file name> \<path where to copy> Copy file to a given path 
+> cp \<file name> \<path where to copy> Copy file to a given path
+> mv \<file name> \<path where to move> Move file to the given path 
+## 13. rm
+> rm \<file name> Remove a file
+## 14. rmdir
+> rmdir \<directory name> For an empty directory removal
+> rm -r \<directory name> To remove a directory with files in it
+## 15. ln
+> ln -s \<file name> <link>Can create a link to a file with -s switch for soft
+## 16. clear
+> Clear the terminal
+## 17. whoami
+> Tells who you are😄 (returns the username)
+## 18. useradd
+> useradd \<name> Create a new user
+## 19. sudo
+> sudo \<command which needs permission> Uses when asked for permission
+> Need to enter the password for user
+## 20. adduser
+>Can reverse the command useradd
+## 21. su
+>su <username> Can switch user
+## 22. exit 
+> exit temparary user. (can use in several occasions)
+## 23. passwd
+> passwd <username> Can change the password of the user
+## 24. apt
+> sudo apt update Needs to update before install
+> sudo apt install <package> Install packages
+## 25. finger
+> Needs to install finger package first
+> finger  \<username> Can be used to inspect another user
+## 18. 
+## 18. 
