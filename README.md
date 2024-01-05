@@ -67,5 +67,19 @@ This repository contains some of the important often used Linux commands anyone 
 ## 25. finger
 > Needs to install finger package first
 > finger  \<username> Can be used to inspect another user
-## 18. 
-## 18. 
+> man finger \
+## 26. man
+> man \<command> Can get help with things that don't know
+## 27. whatis 
+> whatis \<command> Faster than man command to get help
+## 28. whereis
+> whereis \<command> To findout where the command is 
+## 29. wget
+> wget \<link> Help to get stuff from the internet
+## 30. curl
+> curl \<link> Help to get stuff from the internet
+## 31. zip
+> zip \<zip file> <file name> Make a zip file
+## 28. 
+
+
