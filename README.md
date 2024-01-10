@@ -141,7 +141,7 @@ Change the permissions of the file
 > Use ctrl+C to stop.
 
 > [!NOTE]
-> To use only a specific number of response use ```ping -c <number> <name of the website/ipaddress>```
+> To use only a specific number of response use ```ping -c <number> <name of the website/ipaddress>```<br>
 > To use only a specific size of packets use ```ping -s <number> <name of the website/ipaddress>```
 ## 46. traceroute
 >```traceroute <name of the website>```To see the path through the internet to get to a website
@@ -149,7 +149,7 @@ Change the permissions of the file
 > To check what ports in use.
 
 > [!TIP]
-> Modern version ```netstat -tulpn```
+> Modern version ```netstat -tulpn```<br>
 > Another command ```ss``` or ```ss -tulpn```
 ## 48. iptables
 > ```sudo iptables -I INPUT -p tcp -, tcp --dport <port> -j ACCEPT```To allow a specific port through the firewall
@@ -165,8 +165,8 @@ Change the permissions of the file
 >```uname -a``` To find information about the system.
 
 > [!TIP]
-> Needs prettier version than above😀
-> Install neofetch ```sudo apt install neofetchf```
+> Needs prettier version than above😀<br>
+> Install neofetch ```sudo apt install neofetchf```<br>
 > Run```neofetch```
 ## 50. cal
 > A quick little calendar :)
@@ -188,19 +188,19 @@ Change the permissions of the file
 > [!TIP]
 > Use ```pkill -f <name of the process>``` In case the pid is not known.
 ## 56. systemctl
->```systemctl stop <service name>``` Stop a specific service.
->```systemctl start <service name>``` Start a specific service.
->```systemctl restart <service name>``` Restart a specific service.
+>```systemctl stop <service name>``` Stop a specific service.<br>
+>```systemctl start <service name>``` Start a specific service.<br>
+>```systemctl restart <service name>``` Restart a specific service<br>
 
 > [!TIP]
->```systemctl status <service name>``` To check the status
+>```systemctl status <service name>``` To check the status<br>
 > Use ```sudo``` if necessary when using ```systemctl``` command
 ## 57. history
 >Return a list of commands used.
 ## 58. reboot
 >```sudo reboot``` To reboot the system
 ## 59. shutdown
->```sudo shutdown``` To shutdown the system after 1 minute
+>```sudo shutdown``` To shutdown the system after 1 minute<br>
 >```sudo shutdown -h now``` To shutdown the system now
 
 
