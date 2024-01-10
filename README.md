@@ -78,7 +78,48 @@ This repository contains some of the important often used Linux commands anyone 
 ## 30. curl
 > ```curl \<link>``` Help to get stuff from the internet
 ## 31. zip
-> zip \<zip file> <file name> Make a zip file
-## 28. 
+> ```zip \<zip file> <file name>``` Make a zip file
+## 32. unzip
+> ```unzip <zip file name>``` Unzip the file
+## 33. less
+>```less <file name>``` Can read one page at a time. (substitution for cat command)
+## 34. head
+>```head <file name>``` Output only the begining of the file
+## 35. tail
+>```tail <file name>``` Output only the ending of the file
+## 36. cmp
+>```cmp <file1> <file2>``` Compare two files and check whether any differences exist.
+## 37. diff
+>```diff <file1> <file2>``` List the differences of the two files
+## 38. sort
+>```cat <file name> | sort``` The file is sorted in alphabatical order
+## 39. find
+>```sudo find <the directory> -name "<search key>"``` Find the search key
+>```sudo find <the directory> -type f -name "."``` Find all hidden files
+>```find <the directory> -type f -empty``` Finds all empty directories
+>```find <the directory> -perm /a=x``` Finds all executable files
+## 40. chmod
+Change the permissions of the file
+>```chmod <permission> <file name>``` To change permission of the file.
+
+> [!IMPORTANT]
+> 0 no permissions<br>
+> 1 can execute<br>
+> 2 can write<br>
+> 3 can write, execute<br>
+> 4 can read<br>
+> 5 can read, execute<br>
+> 6 can read, write<br>
+> 7 can read, write and execute<br>
+## 41. 
+## 42. 
+## 43. 
+## 44. 
+## 45. 
+## 46. 
+## 47. 
+## 48. 
+## 49. 
+## 5. 
 
 
