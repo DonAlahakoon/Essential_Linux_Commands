@@ -21,6 +21,8 @@ This repository contains some of the important often used Linux commands anyone 
 ## 6. echo
 > ```echo \<message>```  print the message<br>
 > ```echo \<message>  \> \<filename>``` Add message to the file<br>
+
+
 ## 7. nano
 > ```nano \<filename>``` edit a file<br>
 > To save use ctrl + X and Y and Enter to save
@@ -148,8 +150,58 @@ Change the permissions of the file
 
 > [!TIP]
 > Modern version ```netstat -tulpn```
-## 48. 
-## 49. 
-## 5. 
+> Another command ```ss``` or ```ss -tulpn```
+## 48. iptables
+> ```sudo iptables -I INPUT -p tcp -, tcp --dport <port> -j ACCEPT```To allow a specific port through the firewall
+
+> [!TIP]
+> Easy command ```sudo ufw allow <port>```
+
+> [!IMPORTANT]
+> To execute above command below command might need to execute first<br>
+> ```sudo ufw enable```
+> To check status use ```sudo ufw status```
+## 49. uname
+>```uname -a``` To find information about the system.
+
+> [!TIP]
+> Needs prettier version than above😀
+> Install neofetch ```sudo apt install neofetchf```
+> Run```neofetch```
+## 50. cal
+> A quick little calendar :)
+## 51. free
+> To check how much memeory available in system and swap space.
+## 52. df
+> To check how much space available (To be more specific use df -H)
+## 53. ps
+> To list all processes<br>
+> ```ps -aux``` More details
+## 54. top
+> List processes running in real time
+
+> [!TIP]
+> ```htop``` Much more prettier version of top. 
+## 55. kill
+>```kill -KILL <pid>``` or ```kill -9 <pid>``` To kill the process with given id.
+
+> [!TIP]
+> Use ```pkill -f <name of the process>``` In case the pid is not known.
+## 56. systemctl
+>```systemctl stop <service name>``` Stop a specific service.
+>```systemctl start <service name>``` Start a specific service.
+>```systemctl restart <service name>``` Restart a specific service.
+
+> [!TIP]
+>```systemctl status <service name>``` To check the status
+> Use ```sudo``` if necessary when using ```systemctl``` command
+## 57. history
+>Return a list of commands used.
+## 58. reboot
+>```sudo reboot``` To reboot the system
+## 59. shutdown
+>```sudo shutdown``` To shutdown the system after 1 minute
+>```sudo shutdown -h now``` To shutdown the system now
+
 
 
