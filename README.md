@@ -3,13 +3,13 @@ This repository contains some of the important often used Linux commands anyone 
 ## 1. ssh
 > ``` ssh \<username>@\<serverIP>```
 ## 2. ls
-> List all the files in the directory<br>
+ List all the files in the directory<br>
 > ```ls -l``` gives list files with permissions<br>
 > ```ls -al``` gives hidden files as well<br>
 ## 3. pwd
-> Be able to print the current directory
+ Be able to print the current directory
 ## 4. cd
-> Changing directory<br>
+ Changing directory<br>
 > ```cd \<path>```   navigate to the respective directory<br>
 > ```cd ..  ```      jump back directory<br>
 > ```cd   ```        naviagate to home
