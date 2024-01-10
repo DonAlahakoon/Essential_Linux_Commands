@@ -103,6 +103,7 @@ Change the permissions of the file
 >```chmod <permission> <file name>``` To change permission of the file.
 
 > [!IMPORTANT]
+> Here are the permission types<br>
 > 0 no permissions<br>
 > 1 can execute<br>
 > 2 can write<br>
@@ -111,13 +112,42 @@ Change the permissions of the file
 > 5 can read, execute<br>
 > 6 can read, write<br>
 > 7 can read, write and execute<br>
-## 41. 
-## 42. 
-## 43. 
-## 44. 
-## 45. 
-## 46. 
-## 47. 
+## 41. chown
+>```chown <user> <file name>``` Changing owner of the file
+## 42. ifconfig
+> Gives IP address of the machine
+## 43. ip address
+> Returns the ip address
+
+> [!NOTE]
+> Can also use the command ```grep``` to only return ip address of a specific interface.
+> Ex: >```ip address | grep eth0``` Return only the ip address of ethernet 0.
+
+> [!IMPORTANT]
+> If only the ip address you want to return, use ```awk '{print $2}' ```<br>
+> Ex: >```ip address | grep eth0 | grep inet | awk '{print $2}'```
+
+## 44. resolvectl status
+>Return information about the DNS server (including IP address)
+
+> [!TIP]
+> ```cat /etc/resolv.conf``` Return information about the DNS server
+## 45. ping
+> ```ping <name of the website/ipaddress>```
+
+> [!TIP]
+> Use ctrl+C to stop.
+
+> [!NOTE]
+> To use only a specific number of response use ```ping -c <number> <name of the website/ipaddress>```
+> To use only a specific size of packets use ```ping -s <number> <name of the website/ipaddress>```
+## 46. traceroute
+>```traceroute <name of the website>```To see the path through the internet to get to a website
+## 47. netstat
+> To check what ports in use.
+
+> [!TIP]
+> Modern version ```netstat -tulpn```
 ## 48. 
 ## 49. 
 ## 5. 
