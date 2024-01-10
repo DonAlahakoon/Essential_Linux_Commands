@@ -47,27 +47,27 @@ This repository contains some of the important often used Linux commands anyone 
 ## 15. ln
 > ```ln -s \<file name> <link>``` Can create a link to a file with -s switch for soft
 ## 16. clear
-> Clear the terminal
+ Clear the terminal
 ## 17. whoami
-> Tells who you are😄 (returns the username)
+ Tells who you are😄 (returns the username)
 ## 18. useradd
 > ```useradd \<name>``` Create a new user
 ## 19. sudo
 > ```sudo \<command which needs permission>``` Uses when asked for permission
 > Need to enter the password for user
 ## 20. adduser
->Can reverse the command useradd
+Can reverse the command useradd
 ## 21. su
 >```su <username>``` Can switch user
 ## 22. exit 
-> exit temparary user. (can use in several occasions)
+ Exit temparary user. (can use in several occasions)
 ## 23. passwd
-> passwd <username> Can change the password of the user
+> ```passwd <username>``` Can change the password of the user
 ## 24. apt
 > ```sudo apt update``` Needs to update before install
 > ```sudo apt install <package>``` Install packages
 ## 25. finger
-> Needs to install finger package first
+ Needs to install finger package first
 > ```finger  \<username>``` Can be used to inspect another user
 ## 26. man
 > ```man \<command>``` Can get help with things that don't know
@@ -117,9 +117,9 @@ Change the permissions of the file
 ## 41. chown
 >```chown <user> <file name>``` Changing owner of the file
 ## 42. ifconfig
-> Gives IP address of the machine
+ Gives IP address of the machine
 ## 43. ip address
-> Returns the ip address
+ Returns the ip address
 
 > [!NOTE]
 > Can also use the command ```grep``` to only return ip address of a specific interface.
@@ -130,7 +130,7 @@ Change the permissions of the file
 > Ex: >```ip address | grep eth0 | grep inet | awk '{print $2}'```
 
 ## 44. resolvectl status
->Return information about the DNS server (including IP address)
+Return information about the DNS server (including IP address)
 
 > [!TIP]
 > ```cat /etc/resolv.conf``` Return information about the DNS server
@@ -169,16 +169,16 @@ Change the permissions of the file
 > Install neofetch ```sudo apt install neofetchf```<br>
 > Run```neofetch```
 ## 50. cal
-> A quick little calendar :)
+ A quick little calendar :)
 ## 51. free
-> To check how much memeory available in system and swap space.
+ To check how much memeory available in system and swap space.
 ## 52. df
-> To check how much space available (To be more specific use df -H)
+ To check how much space available (To be more specific use df -H)
 ## 53. ps
-> To list all processes<br>
+ To list all processes<br>
 > ```ps -aux``` More details
 ## 54. top
-> List processes running in real time
+ List processes running in real time
 
 > [!TIP]
 > ```htop``` Much more prettier version of top. 
@@ -196,7 +196,7 @@ Change the permissions of the file
 >```systemctl status <service name>``` To check the status<br>
 > Use ```sudo``` if necessary when using ```systemctl``` command
 ## 57. history
->Return a list of commands used.
+Return a list of commands used.
 ## 58. reboot
 >```sudo reboot``` To reboot the system
 ## 59. shutdown
