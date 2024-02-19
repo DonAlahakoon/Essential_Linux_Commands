@@ -1,6 +1,8 @@
 # Essential_Linux_Commands
 ![Picture](https://opencode.md/wp-content/uploads/2023/08/Top-8-facts-about-Linux-2.jpg)
 ## *** This repository contains some of the important often used Linux commands anyone interested in learning Linux should know. ***
+> [!TIP]
+>  Hint✨: To search 🔎 any command or any operation use <i>Ctrl + F</i>
 ## 1. ssh
 > ``` ssh \<username>@\<serverIP>```
 ## 2. ls
