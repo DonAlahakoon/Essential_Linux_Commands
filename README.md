@@ -45,7 +45,7 @@
 ## 13. rm
 > ```rm \<file name>``` Remove a file
 ## 14. rmdir
-> ```rmdir \<directory name>``` For an empty directory removal
+> ```rmdir \<directory name>``` For an empty directory removal<br>
 > ```rm -r \<directory name>``` To remove a directory with files in it
 ## 15. ln
 > ```ln -s \<file name> <link>``` Can create a link to a file with -s switch for soft
@@ -99,10 +99,10 @@ Can reverse the command useradd
 ## 38. sort
 >```cat <file name> | sort``` The file is sorted in alphabatical order
 ## 39. find
->```sudo find <the directory> -name "<search key>"``` Find the search key
->```sudo find <the directory> -type f -name "."``` Find all hidden files
->```find <the directory> -type f -empty``` Finds all empty directories
->```find <the directory> -perm /a=x``` Finds all executable files
+>```sudo find <the directory> -name "<search key>"``` Find the search key<br>
+>```sudo find <the directory> -type f -name "."``` Find all hidden files<br>
+>```find <the directory> -type f -empty``` Finds all empty directories<br>
+>```find <the directory> -perm /a=x``` Finds all executable files<br>
 ## 40. chmod
 Change the permissions of the file
 >```chmod <permission> <file name>``` To change permission of the file.
