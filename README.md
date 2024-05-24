@@ -29,6 +29,9 @@
 ## 7. nano
 > ```nano <filename>``` edit a file<br>
 > To save use ctrl + X then Y then Enter to save
+
+> [!TIP]
+> To undo use "Alt + U" and to redo "Alt + E"
 ## 8. vim
 > ```vim <filename>``` edit a file<br>
 > Hit I to start editing
