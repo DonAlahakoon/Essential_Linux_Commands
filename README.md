@@ -217,5 +217,5 @@ Return a list of commands used.
 >```sudo shutdown``` To shutdown the system after 1 minute<br>
 >```sudo shutdown -h now``` To shutdown the system now
 
-
-
+## 60. stat
+>```stat <filename>``` Gives the meta data of the file.
