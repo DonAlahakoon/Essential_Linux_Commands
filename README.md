@@ -9,6 +9,7 @@
  List all the files in the directory<br>
 > ```ls -l``` gives list files with permissions<br>
 > ```ls -al``` gives hidden files as well<br>
+> ```ls -altr``` gives file list with with hidden files sorted in newly created file last<br>
 ## 3. pwd
  Be able to print the current directory
 ## 4. cd
