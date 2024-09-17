@@ -37,7 +37,10 @@
 > Hit I to start editing
 > When done use hit ESC and :wq 
 ## 9. cat
-> ```cat <filename>``` Read content of a file
+> ```cat <filename>``` Read content of a file<br>
+
+> [!TIP]
+> To find the OS version use ```cat /etc/os-release```
 ## 10. shred
 > ```shred <filename>``` Don't let anyone to read the file. 
 ## 11. mkdir
@@ -175,6 +178,9 @@ Return information about the DNS server (including IP address)
 > To check status use ```sudo ufw status```
 ## 49. uname
 >```uname -a``` To find information about the system.
+
+> [!NOTE]
+> Use ```lsb_release```  to find information about Linux distribution version
 
 > [!TIP]
 > Needs prettier version than above😀<br>
