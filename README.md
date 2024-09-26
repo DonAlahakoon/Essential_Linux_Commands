@@ -217,5 +217,6 @@ Return a list of commands used.
 >```sudo shutdown``` To shutdown the system after 1 minute<br>
 >```sudo shutdown -h now``` To shutdown the system now
 
-
+## 60. To refresh Terminal
+>```source ~/.bashrc```
 
