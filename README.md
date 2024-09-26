@@ -226,3 +226,5 @@ Return a list of commands used.
 
 ## 60. stat
 >```stat <filename>``` Gives the meta data of the file.
+## 61. To refresh Terminal
+>```source ~/.bashrc```
