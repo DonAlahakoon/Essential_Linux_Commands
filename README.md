@@ -9,6 +9,7 @@
  List all the files in the directory<br>
 > ```ls -l``` gives list files with permissions<br>
 > ```ls -al``` gives hidden files as well<br>
+> ```ls -altr``` gives file list with with hidden files sorted in newly created file last<br>
 ## 3. pwd
  Be able to print the current directory
 ## 4. cd
@@ -37,7 +38,10 @@
 > Hit I to start editing
 > When done use hit ESC and :wq 
 ## 9. cat
-> ```cat <filename>``` Read content of a file
+> ```cat <filename>``` Read content of a file<br>
+
+> [!TIP]
+> To find the OS version use ```cat /etc/os-release```
 ## 10. shred
 > ```shred <filename>``` Don't let anyone to read the file. 
 ## 11. mkdir
@@ -176,6 +180,9 @@ Return information about the DNS server (including IP address)
 ## 49. uname
 >```uname -a``` To find information about the system.
 
+> [!NOTE]
+> Use ```lsb_release```  to find information about Linux distribution version
+
 > [!TIP]
 > Needs prettier version than above😀<br>
 > Install neofetch ```sudo apt install neofetchf```<br>
@@ -217,6 +224,7 @@ Return a list of commands used.
 >```sudo shutdown``` To shutdown the system after 1 minute<br>
 >```sudo shutdown -h now``` To shutdown the system now
 
-## 60. To refresh Terminal
+## 60. stat
+>```stat <filename>``` Gives the meta data of the file.
+## 61. To refresh Terminal
 >```source ~/.bashrc```
-
