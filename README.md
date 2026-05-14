@@ -180,10 +180,16 @@ Return information about the DNS server (including IP address)
 > ```sudo ufw enable```
 > To check status use ```sudo ufw status```
 ## 49. uname
->```uname -a``` To find information about the system.
+>```uname -a``` To find information about the system kernal.
+
+> [!TIP]
+> For additional information about the CPU architecture use ```lscpu```<br>
 
 > [!NOTE]
-> Use ```lsb_release```  to find information about Linux distribution version
+> Use ```lsb_release -a```  to find information about Linux distribution version.
+
+> [!TIP]
+> Use ```inxi -Fxz``` gives you system info in an organized manner.
 
 > [!TIP]
 > Needs prettier version than above😀<br>
