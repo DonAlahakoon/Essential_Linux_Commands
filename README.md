@@ -152,7 +152,7 @@ Return information about the DNS server (including IP address)
 > [!TIP]
 > ```cat /etc/resolv.conf``` Return information about the DNS server
 ## 45. ping
-> ```ping <name of the website/ipaddress>```
+> ```ping <name of the website/ipaddress>``` Send ICMP(Internet Control Message Protocol) ECHO requests to the destination and waits for the reply.
 
 > [!TIP]
 > Use ctrl+C to stop.
