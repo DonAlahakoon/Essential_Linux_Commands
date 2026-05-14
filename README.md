@@ -202,7 +202,10 @@ Return information about the DNS server (including IP address)
 > [!NOTE]
 > Here swap means the virtual memory. Once the RAM is fully utilize OS uses secondary memory to create a virtual memory. 
 ## 52. df
- To check how much space available (To be more specific use df -H)
+ To check how much space available (To be more specific use ```df -H```)
+ 
+>[!Note]
+>Can use ```lsblk``` as well.
 ## 53. ps
  To list all processes<br>
 > ```ps -aux``` More details
