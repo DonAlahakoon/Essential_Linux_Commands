@@ -161,7 +161,8 @@ Return information about the DNS server (including IP address)
 > To use only a specific number of response use ```ping -c <number> <name of the website/ipaddress>```<br>
 > To use only a specific size of packets use ```ping -s <number> <name of the website/ipaddress>```
 ## 46. traceroute
->```traceroute <name of the website>```To see the path through the internet to get to a website
+>```traceroute <name of the website>```To see the path through the internet to get to a website<br>
+> Use case: ```traceroute -T``` (use TCP instead of UDP)
 ## 47. netstat
 > To check what ports in use.
 
