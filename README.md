@@ -4,7 +4,8 @@
 > [!TIP]
 >  Hint✨: To search 🔎 any command or any operation use <i>Ctrl + F</i>
 ## 1. ssh
-> ``` ssh <username>@<serverIP>```
+> ``` ssh <username>@<serverIP>```<br>
+> Use Case: ```ssh -i key.pem user@ip```
 ## 2. ls
  List all the files in the directory<br>
 > ```ls -l``` gives list files with permissions<br>
