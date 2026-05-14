@@ -202,6 +202,8 @@ Return information about the DNS server (including IP address)
 > ```ps -aux``` More details
 ## 54. top
  List processes running in real time
+> [!NOTE]
+> Type ```q``` to quit.<br>
 
 > [!TIP]
 > ```htop``` Much more prettier version of top. 
