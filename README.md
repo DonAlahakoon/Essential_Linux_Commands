@@ -219,6 +219,22 @@ Return information about the DNS server (including IP address)
 
 > [!TIP]
 >```systemctl status <service name>``` To check the status<br>
+
+>[!Note]
+> 1. Using systemctl (Modern Systems)<br>
+>  The systemctl command allows you to view services currently loaded in memory or those installed on the disk.
+> - List all active services: ```systemctl list-units --type=service```Shows services that are currently running, exited, or failed.<br>
+> - List all services (including inactive): ```systemctl list-units --type=service --all```Includes stopped services.<br>
+> - List only running services: ```systemctl list-units --type=service --state=running```
+> - List services by boot status (Enabled/Disabled):```systemctl list-unit-files --type=service```Shows if a service is configured to start automatically at boot.
+> - List failed services: ```systemctl --failed```<br>
+> 2. Using service (Legacy/Quick View)On older systems or for a simplified view, you can use the service wrapper script.<br>
+> - List status of all services: ```service --status-all```<br>
+[ + ] indicates the service is running.<br>
+  [ - ] indicates the service is stopped.<br>
+[ ? ] means the status cannot be determined.<br>
+>
+
 > Use ```sudo``` if necessary when using ```systemctl``` command
 ## 57. history
 Return a list of commands used.
