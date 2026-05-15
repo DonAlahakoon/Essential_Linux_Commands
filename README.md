@@ -212,6 +212,9 @@ Return information about the DNS server (including IP address)
 ## 53. ps
  To list all processes<br>
 > ```ps -aux``` More details
+
+> [!TIP]
+> Use ```ps aux | grep <service name>``` → To find specific process
 ## 54. top
  List processes running in real time
 > [!NOTE]
