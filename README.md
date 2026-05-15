@@ -1,5 +1,8 @@
 # Essential_Linux_Commands
-![Picture](https://opencode.md/wp-content/uploads/2023/08/Top-8-facts-about-Linux-2.jpg)
+<p align="center">
+<img src="https://academy.hackthebox.com/storage/modules/18/logo.png" width="500" border="10"/><br>
+</p>
+
 ## *** This repository contains some of the important often used Linux commands anyone interested in learning Linux should know. ***
 > [!TIP]
 >  Hint✨: To search 🔎 any command or any operation use <i>Ctrl + F</i>
