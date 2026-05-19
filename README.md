@@ -47,7 +47,10 @@
 > [!TIP]
 > To find the OS version use ```cat /etc/os-release```
 ## 10. shred
-> ```shred <filename>``` Don't let anyone to read the file. 
+> ```shred <filename>``` Don't let anyone to read the file.
+
+> [!NOTE]
+> Try ```cat``` command and you will see an encypted file.
 ## 11. mkdir
 > ```mkdir <directory name>``` create a new directory
 ## 12. cp
