@@ -38,7 +38,23 @@
 > To save use `ctrl + X` then `Y` then Enter to save
 
 > [!TIP]
-> To undo use "Alt + U" and to redo "Alt + E"
+> Important commands
+```text
+Ctrl + O              Save
+Ctrl + X              Exit
+Ctrl + W              Search
+Ctrl + K              Cut line
+Ctrl + U              Paste
+Alt + 6               Copy
+Alt + U               Undo
+Alt + E               Redo
+Ctrl + A              Beginning of line
+Ctrl + E              End of line
+Ctrl + Y              Page up
+Ctrl + V              Page down
+Ctrl + _              Go to line
+Ctrl + G              Help
+```
 ## 8. vim
 > ```vim <filename>``` edit a file<br>
 
