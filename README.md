@@ -42,6 +42,9 @@
 ## 8. vim
 > ```vim <filename>``` edit a file<br>
 
+> [!WARNING]
+> In most Linux Distros `vim` command will not work but `vi` will work. Vi is the Vim's older ancestor.
+
 > [!CAUTION]
 > Hit `I` to start editing
 > When done use hit `ESC` and `:wq`
