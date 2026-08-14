@@ -39,6 +39,8 @@
 > To undo use "Alt + U" and to redo "Alt + E"
 ## 8. vim
 > ```vim <filename>``` edit a file<br>
+
+> [!WARNING]
 > Hit I to start editing
 > When done use hit ESC and :wq 
 ## 9. cat
