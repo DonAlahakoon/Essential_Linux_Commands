@@ -14,6 +14,18 @@
 > ```ls -l``` gives list files with permissions<br>
 > ```ls -al``` gives hidden files as well<br>
 > ```ls -altr``` gives file list with with hidden files sorted in newly created file last<br>
+> All Options<br>
+> `-l` - Long listing format<br>
+> `-a` - Include hidden files<br>
+> `-h` - Human-readable sizes<br>
+> `-t` - Sort by modification time<br>
+> `-r` - Reverse order while sorting<br>
+> `-R` - List subdirectories recursively<br>
+> `-S` - Sort by file size<br>
+> `-1` - List one file per line<br>
+> `-d` - List directories themselves, not their contents<br>
+> `-F` - Append indicator (one of */=@|) to entries<br>
+
 ## 3. pwd
  Be able to print the current directory
 ## 4. cd
