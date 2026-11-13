@@ -90,7 +90,8 @@ Ctrl + G              Help
 > ```mkdir <directory name>``` create a new directory
 ## 12. cp
 > ```cp <file name> <path where to copy>``` Copy file to a given path<br>
-> ```mv <file name> \<path where to move>``` Move file to the given path 
+> ```mv <file name> <path where to move>``` Move file to the given path<br>
+> Ex. `mv file.txt folder/new/`
 ## 13. rm
 > ```rm <file name>``` Remove a file
 ## 14. rmdir
