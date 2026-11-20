@@ -92,6 +92,9 @@ Ctrl + G              Help
 > ```cp <file name> <path where to copy>``` Copy file to a given path<br>
 > ```mv <file name> <path where to move>``` Move file to the given path<br>
 > Ex. `mv file.txt folder/new/`
+
+> [!Tip]
+> To rename a file use `mv` command. Ex: ```mv <file name> <new name>```
 ## 13. rm
 > ```rm <file name>``` Remove a file
 ## 14. rmdir
