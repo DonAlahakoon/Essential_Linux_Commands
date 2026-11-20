@@ -1,9 +1,9 @@
 # Essential_Linux_Commands
 <p align="center">
-<img src="https://academy.hackthebox.com/storage/modules/18/logo.png" width="500" border="10"/><br>
+<img src="https://web-mind.io/aa-media/ps/linux-logo-129-ps6-800x.jpg" width="500" border="10"/><br>
 </p>
 
-## *** This repository contains some of the important often used Linux commands anyone interested in learning Linux should know. ***
+## This repository contains some of the important often used Linux commands anyone interested in learning Linux should know.
 > [!TIP]
 >  Hint✨: To search 🔎 any command or any operation use <i>Ctrl + F</i>
 ## 1. ssh
